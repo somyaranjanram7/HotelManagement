@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deluxe Hotels</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <header id="home" class="navbar">
+    <div class="content flex_space">
+      <div class="logo">
+        <img src="images/logo.png" alt="">
+      </div>
+      <div class="navlinks">
+        <ul id="menulist">
+          <li><a href="index.html">home</a> </li>
+          <li><a href="#about">about</a> </li>
+          <li><a href="#rooms">rooms</a> </li>
+          <li><a href="#services">Services</a> </li>
+          <li><a href="#news">news</a> </li>
+          <li><a href="#contact">contact</a> </li>
+          <li> <i class="fa fa-search"></i> </li>
+          <li> <button class="primary-btn">BOOK NOW</button> </li>
+        </ul>
+        <span class="fa fa-bars" onclick="menutoggle()"></span>
+      </div>
+    </div>
+  </header>
+
+
+  <script>
+    var menulist = document.getElementById('menulist');
+    menulist.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menulist.style.maxHeight == "0px") {
+        menulist.style.maxHeight = "100vh";
+      } else {
+        menulist.style.maxHeight = "0px";
+      }
+    }
+  </script>
+
+
+  <section class="home">
+    <div class="content">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="images/banner-1.jpg" alt="">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a href="#read">READ MORE</a></button>
+              <button class="secondary-btn"><a href="#contact">CONTACT US</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/banner-2.jpg" alt="">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a href="#read">READ MORE</a></button>
+              <button class="secondary-btn"><a href="#contact">CONTACT US</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/banner-3.jpg" alt="">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a href="#read">READ MORE</a></button>
+              <button class="secondary-btn"><a href="#contact">CONTACT US</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/banner-4.jpg" alt="">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a href="#read">READ MORE</a></button>
+              <button class="secondary-btn"><a href="#contact">CONTACT US</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/banner-5.jpg" alt="">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a href="#read">READ MORE</a></button>
+              <button class="secondary-btn"><a href="#contact">CONTACT US</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/banner-6.jpg" alt="">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a href="#read">READ MORE</a></button>
+              <button class="secondary-btn"><a href="#contact">CONTACT US</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+    integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      dots: false,
+      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        170: {
+          items: 1
+        },
+        340: {
+          items: 1
+        },
+        510: {
+          items: 1
+        },
+        680: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+
+
+
+  <section class="book">
+    <div class="container flex_space">
+      <div class="text">
+        <h1> <span>Book </span> Your Rooms </h1>
+      </div>
+      <div class="form">
+        <form class="grid">
+          <input type="date" placeholder="Araival Date">
+          <input type="date" placeholder="Departure Date">
+          <input type="number" placeholder="Adults">
+          <input type="number" placeholder="Childern">
+          <input type="submit" value="CHECK AVAILABILITY">
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="about top" id="about">
+    <div class="container flex">
+      <div class="left">
+        <div class="heading">
+          <h1>WELCOME</h1>
+          <h2>Deluxe Hotels</h2>
+        </div>
+        <p>Welcome to our exquisite hotel, where luxury and comfort harmoniously intertwine to create an unforgettable
+          experience. Nestled in the heart of a vibrant city, our establishment offers a haven of tranquility amidst the
+          bustling surroundings. Immerse yourself in our thoughtfully designed rooms and suites, meticulously crafted to
+          cater to your every need. Indulge in our world-class amenities, including a state-of-the-art fitness center,
+          rejuvenating spa, and exquisite dining options that tantalize your taste buds. Our dedicated staff is
+          committed to providing impeccable service, ensuring that your stay exceeds your expectations. Whether you're
+          traveling for business or pleasure, our hotel is the perfect retreat, where you can relax, unwind, and create
+          cherished memories.</p>
+        <button class="primary-btn">BOOK NOW</button>
+      </div>
+      <div class="right">
+        <img src="images/about-1 (1).jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="about top" id="read">
+    <div class="container flex">
+      <div class="left">
+        <div class="heading">
+          <h1>About Us</h1>
+          <h2>Our Moto</h2>
+        </div>
+        <p>"Discover a world of extraordinary hospitality with our hotel booking website. We believe in creating
+          unforgettable experiences, one booking at a time. With a vast selection of handpicked accommodations, we
+          strive to match every traveler's unique needs and preferences. Our commitment to excellence shines through in
+          our seamless booking process, transparent pricing, and unparalleled customer service. Whether you're seeking a
+          luxurious getaway, a cozy boutique retreat, or a budget-friendly option, we've got you covered. Trust us to be
+          your trusted travel companion, guiding you towards remarkable destinations and helping you create memories
+          that will last a lifetime. Book with us and unlock the door to your dream stay."</p>
+        <button class="primary-btn">ABOUT US</button>
+      </div>
+      <div class="right">
+        <img src="images/about-1 (2).jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="counter top">
+    <div class="container grid">
+      <div class="box">
+        <h1>2500</h1>
+        <hr>
+        <span>Customer</span>
+      </div>
+      <div class="box">
+        <h1>1250</h1>
+        <hr>
+        <span>Happy Customer</span>
+      </div>
+      <div class="box">
+        <h1>150</h1>
+        <hr>
+        <span>Expert Technicians</span>
+      </div>
+      <div class="box">
+        <h1>3550</h1>
+        <hr>
+        <span>Desktop Reaired</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="rooms" id="rooms">
+    <div class="container top">
+      <div class="heading">
+        <h1>EXPOLRE</h1>
+        <h2>Our Rooms</h2>
+        <p>Experience ultimate luxury and comfort in our meticulously designed hotel rooms.
+        </p>
+      </div>
+
+      <div class="content mtop">
+        <div class="owl-carousel owl-carousel1 owl-theme">
+          <div class="items">
+            <div class="image">
+              <img src="images/room-1.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Luxury Rooms</h2>
+              <div class="rate flex">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+              <div class="button flex">
+                <button class="primary-btn">BOOK NOW</button>
+                <h3>$250 <span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image">
+              <img src="images/room-2.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Luxury Rooms</h2>
+              <div class="rate flex">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+              <div class="button flex">
+                <button class="primary-btn">BOOK NOW</button>
+                <h3>$250 <span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image">
+              <img src="images/room-3.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Luxury Rooms</h2>
+              <div class="rate flex">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+              <div class="button flex">
+                <button class="primary-btn">BOOK NOW</button>
+                <h3>$250 <span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image">
+              <img src="images/room-4.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Luxury Rooms</h2>
+              <div class="rate flex">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+              <div class="button flex">
+                <button class="primary-btn">BOOK NOW</button>
+                <h3>$250 <span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image">
+              <img src="images/room-5.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Luxury Rooms</h2>
+              <div class="rate flex">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+              <div class="button flex">
+                <button class="primary-btn">BOOK NOW</button>
+                <h3>$250 <span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image">
+              <img src="images/room-6.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Luxury Rooms</h2>
+              <div class="rate flex">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+              <div class="button flex">
+                <button class="primary-btn">BOOK NOW</button>
+                <h3>$250 <span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image">
+              <img src="images/room-7.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Luxury Rooms</h2>
+              <div class="rate flex">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+              <div class="button flex">
+                <button class="primary-btn">BOOK NOW</button>
+                <h3>$250 <span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image">
+              <img src="images/room-8.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Luxury Rooms</h2>
+              <div class="rate flex">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+              <div class="button flex">
+                <button class="primary-btn">BOOK NOW</button>
+                <h3>$250 <span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    $('.owl-carousel1').owlCarousel({
+      loop: true,
+      margin: 40,
+      nav: true,
+      dots: false,
+      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2,
+          margin: 10,
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+
+
+
+  <section class="gallery" id="gallery">
+    <div class="container top">
+      <div class="heading">
+        <h1>PHOTOS</h1>
+        <h2>Our Gallery</h2>
+        <p>Step into a world of serenity and sophistication as you enter our hotel rooms.
+      </div>
+    </div>
+
+    <div class="content mtop">
+      <div class="owl-carousel owl-carousel1 owl-theme">
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-1.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-2.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-3.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-4.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-5.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-6.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-7.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-1.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-2.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="images/gallery-3.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+            <h3>Photo Title Here.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    $('.owl-carousel1').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true,
+      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 4,
+        },
+        1000: {
+          items: 6
+        }
+      }
+    })
+  </script>
+
+
+  <section class="services top" id="services">
+    <div class="container">
+      <div class="heading">
+        <h1>SERVICES</h1>
+        <h2>Our Services</h2>
+        <p>Step into a world of serenity and sophistication as you enter our hotel rooms, where modern elegance meets
+          unparalleled comfort for an indulgent retreat.
+      </div>
+
+
+      <div class="content flex_space">
+        <div class="left grid2">
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-champagne-glasses"></i>
+              <h3>Delious Food</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-person-biking"></i>
+              <h3>Fintness</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-utensils"></i>
+              <h3>Inhouse Restaurant</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-spa"></i>
+              <h3>Beauty Spa</h3>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img src="images/service.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="Customer top">
+    <div class="container">
+      <div class="owl-carousel owl-carousel2 owl-theme">
+        <div class="item">
+          <i class="fas fa-hotdog"></i>
+          <p>Savor a culinary journey like no other as our hotel presents a tantalizing array of flavors. From gourmet
+            international cuisine to expertly crafted local delicacies, our skilled chefs use the finest ingredients to
+            create exquisite dishes that will delight your palate and leave you craving for more. Bon appétit!</p>
+          <h3>Deluxe Hotels</h3>
+          <label>Deluxe Hotels</label>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-hotel"></i>
+          <p>Savor a culinary journey like no other as our hotel presents a tantalizing array of flavors. From gourmet
+            international cuisine to expertly crafted local delicacies, our skilled chefs use the finest ingredients to
+            create exquisite dishes that will delight your palate and leave you craving for more. Bon appétit!</p>
+          <h3>Deluxe Hotels</h3>
+          <label>Deluxe Hotels</label>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-star"></i>
+          <p>Welcome to our luxurious haven, where elegance and comfort intertwine effortlessly. Immerse yourself in a
+            world of opulence, from our thoughtfully designed rooms and suites to our exceptional amenities. Indulge in
+            delectable dining options, relax in our rejuvenating spa, and experience impeccable service from our
+            dedicated staff. Whether you're here for business or leisure, our hotel promises a memorable stay, creating
+            moments that will linger long after your departure.</p>
+          <h3>Deluxe Hotels</h3>
+          <label>Deluxe Hotels</label>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    $('.owl-carousel2').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: false,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1,
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+  
+
+
+  <section class="news top rooms" id="news">
+    <div class="container">
+      <div class="heading">
+        <h1>NEWS</h1>
+        <h2>Our News</h2>
+        <p>Get latest news of our Hotels.
+      </div>
+
+
+      <div class="content flex">
+        <div class="left grid2">
+          <div class="items">
+            <div class="image">
+              <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Book now to get exiting offers</h2>
+              <div class="admin flex">
+                <i class="fa fa-user"></i>
+                <label>Admin</label>
+                <i class="fa fa-heart"></i>
+                <label>500</label>
+                <i class="fa fa-comments"></i>
+                <label>400</label>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image">
+              <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="text">
+              <h2>Book now to get exiting offers</h2>
+              <div class="admin flex">
+                <i class="fa fa-user"></i>
+                <label>Admin</label>
+                <i class="fa fa-heart"></i>
+                <label>500</label>
+                <i class="fa fa-comments"></i>
+                <label>400</label>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="box flex">
+            <div class="img">
+              <img src="images/blog-s1.jpg" alt="">
+            </div>
+            <div class="stext">
+              <h2>Stay tuned with our latest news </h2>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+            </div>
+          </div>
+          <div class="box flex">
+            <div class="img">
+              <img src="images/blog-s2.jpg" alt="">
+            </div>
+            <div class="stext">
+              <h2>Stay tuned with our latest news </h2>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+            </div>
+          </div>
+          <div class="box flex">
+            <div class="img">
+              <img src="images/blog-s3.jpg" alt="">
+            </div>
+            <div class="stext">
+              <h2>Stay tuned with our latest news </h2>
+              <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="news top rooms" id="news">
+    <div class="container">
+      <div class="heading">
+        <h1>LOCATION</h1>
+        <h2>Our Location</h2>
+        <p>Watch this google map to get our location
+      </div>
+
+
+      <div class="content2">
+        <div class="card">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1870.9887631085662!2d85.81816905809116!3d20.301197346599242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909c66e823f7f%3A0xf35aad5bdf4d8a8f!2sMAYFAIR%20Convention%2C%20Bhubaneswar!5e0!3m2!1sen!2sin!4v1690690584388!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="mapimage">
+            <h1>Deluxe <span>Hotels</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="newsletter mtop">
+    <div class="container flex_space">
+      <h1>Subscribe to Our Newsletter</h1>
+      <input type="text" placeholder="Your Email">
+      <input type="text" value="Subscribe">
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container grid">
+      <div class="box">
+        <img src="images/logo-2.png" alt="">
+        <p> we pride ourselves on delivering impeccable service. From the moment you step into our elegant lobby, our
+          dedicated team will cater to your every need, providing personalized assistance to make your stay truly
+          memorable. Whether it's arranging transportation, recommending local attractions, or fulfilling any special
+          requests, we are committed to ensuring your utmost satisfaction.
+
+          Indulge your taste buds with our exceptional dining options. Savor delectable cuisine at our renowned
+          restaurant, where our talented chefs create culinary masterpieces using the finest ingredients.</p>
+
+        <div class="icon">
+          <a href="https://www.facebook.com/profile.php?id=100080157721206"><i class="fa fa-facebook-f"></i></a>
+          <a href="https://instagram.com/heart_hacker_boy_soumya?igshid=ZDc4ODBmNjlmNQ=="><i
+              class="fa fa-instagram"></i></a>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Links</h2>
+        <ul>
+          <li>Company History</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Services</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+
+      <div class="box" id="contact">
+        <h2>Contact Us</h2>
+        <p>Welcome to our oasis of comfort and luxury, where every stay is an extraordinary experience.
+        </p>
+        <i class="fa fa-location-dot"></i>
+        <label>Jaydev Vihar Mayfair Rd,Nayapalli,Bhubaneswar,Odisha 751013</label> <br>
+        <i class="fa fa-phone"></i>
+        <label>+91 9668688978</label> <br>
+        <i class="fa fa-envelope"></i>
+        <label>somyaranjanram7@gmail.com</label> <br>
+      </div>
+    </div>
+  </footer>
+  <div class="legal">
+    <center>
+      <p class="container">Copyright (c) 2022 Copyright Holder All Rights Reserved.</p>
+    </center>
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/032d11eac3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
